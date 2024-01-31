@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+header{
+    width: 100vw;
+    background-color: var(--main-bg-color);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+.logo p{
+    font-family: 'Playfair Display', serif;
+}
+
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;   
+}
+
+nav ul li a{
+    color: white;
+    padding: 0px 12px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+nav ul li a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 28px;
+    width: 350px;
+    border-radius: 3px;
+    margin: 0px 10px 0px 80px;
+    padding: 0px 15px;
+}
+
+.btn{
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 28px;
+    width: 52px;
+    border: solid 2px white;
+    border-radius: 4px;
+}
+
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.cardlist{
+    display: flex;
+    justify-content: flex-start;
+}
+.card{
+    margin: 15px 20px;
+    text-align: center;
+    overflow: hidden;
+}
+main h2{
+    margin-left: 20px;
+}
+.foot{
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
